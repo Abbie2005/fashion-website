@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Rivo</title>
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Marquee for Upcoming Event -->
+    <div class="marquee">
+      <div class="marquee-content">
+        Upcoming Event: Spring Fashion Sale on March 20, 2025 - Get 20% Off!
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <a href="index.html" class="logo">Rivo</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="trustees.html">Trustees</a></li>
+        </ul>
+        <div class="nav-icons">
+          <i class="fas fa-shopping-cart"></i>
+          <i class="fas fa-user"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+      <div class="hero-content">
+        <h1>Contact Us</h1>
+        <p>
+          Get in touch for inquiries or book a personalized appointment with
+          ease.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Options Section -->
+    <section class="contact-options">
+      <div class="options-container">
+        <div class="option-card active" data-target="inquiries">
+          <h3>Inquiries</h3>
+          <p>Ask us anything about our products or services.</p>
+        </div>
+        <div class="option-card" data-target="appointment">
+          <h3>Book Appointment</h3>
+          <p>Schedule a consultation for personalized styling.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Forms Section -->
+    <section class="forms-section">
+      <div class="form-content active" id="inquiries-form">
+        <form class="contact-form inquiry-form" id="inquiry-form">
+          <h2>Send Us an Inquiry</h2>
+          <p>Have a question? We’ll respond promptly.</p>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Enter the subject"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit Inquiry</button>
+        </form>
+      </div>
+
+      <div class="form-content" id="appointment-form">
+        <form class="contact-form appointment-form">
+          <h2>Book an Appointment</h2>
+          <p>Choose your preferred date and time for a styling session.</p>
+          <div class="form-group">
+            <label for="app-name">Full Name</label>
+            <input
+              type="text"
+              id="app-name"
+              name="app-name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="app-email">Email Address</label>
+            <input
+              type="email"
+              id="app-email"
+              name="app-email"
+              placeholder="Enter your email address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="app-date">Preferred Date</label>
+            <input type="date" id="app-date" name="app-date" required />
+          </div>
+          <div class="form-group">
+            <label for="app-time">Preferred Time</label>
+            <input type="time" id="app-time" name="app-time" required />
+          </div>
+          <button type="submit">Book Appointment</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <p>+1 234 567 890</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p>support@rivo.com</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>123 Fashion Avenue, New York, NY</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Rivo</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h3>Shop</h3>
+            <ul>
+              <li><a href="#shop">Products</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#shop">New Arrivals</a></li>
+              <li><a href="#shop">Best Sellers</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="#trustees">Trustees</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h3>Stay Up to Date</h3>
+          <div class="email-subscribe">
+            <input type="email" placeholder="Enter your email" />
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <a href="#">Terms</a> | <a href="#">Privacy</a> |
+          <a href="#">Cookies</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
