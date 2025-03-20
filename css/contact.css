@@ -14,7 +14,7 @@ body {
 
 /* Marquee */
 .marquee {
-  background-color: #1a3c34;
+  background-color: #FFB200;
   color: #fff;
   padding: 10px 0;
   overflow: hidden;
@@ -59,14 +59,14 @@ nav {
 .logo {
   font-size: 24px;
   font-weight: 700;
-  color: #1a3c34;
+  color: #FFB200;
   text-decoration: none;
 }
 
 .hamburger {
   display: none;
   font-size: 24px;
-  color: #1a3c34;
+  color: #FFB200;
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
-  color: #1a3c34;
+  color: #FFB200;
   font-size: 16px;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -87,19 +87,19 @@ nav {
 
 .nav-links li a:hover,
 .nav-links li a.active {
-  color: #4a8a7a;
+  color: #FFB200;
 }
 
 .nav-icons {
   display: flex;
   gap: 20px;
   font-size: 18px;
-  color: #1a3c34;
+  color: #FFB200;
 }
 
 /* Contact Hero Section */
 .contact-hero {
-  background-color: #e8f4f0;
+  background-color: #e2d8c1;
   padding: 60px 20px;
   text-align: center;
 }
@@ -107,13 +107,13 @@ nav {
 .hero-content h1 {
   font-size: 40px;
   font-weight: 600;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 20px;
 }
 
 .hero-content p {
   font-size: 18px;
-  color: #666;
+  color: #9d8c64;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -150,8 +150,8 @@ nav {
 }
 
 .option-card.active {
-  background-color: #e8f4f0;
-  color: #1a3c34;
+  background-color: #e2d8c1;
+  color: #FFB200;
 }
 
 .option-card h3 {
@@ -162,7 +162,7 @@ nav {
 
 .option-card p {
   font-size: 14px;
-  color: #666;
+  color: #9d8c64;
 }
 
 /* Forms Section */
@@ -187,13 +187,13 @@ nav {
 .contact-form h2 {
   font-size: 32px;
   font-weight: 600;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 20px;
 }
 
 .contact-form p {
   font-size: 16px;
-  color: #666;
+  color: #9d8c64;
   margin-bottom: 40px;
 }
 
@@ -205,7 +205,7 @@ nav {
 .form-group label {
   font-size: 14px;
   font-weight: 500;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 8px;
   display: block;
 }
@@ -214,17 +214,17 @@ nav {
 .form-group textarea {
   width: 100%;
   padding: 12px;
-  border: 2px solid #e8f4f0;
+  border: 2px solid #e2d8c1;
   border-radius: 5px;
   font-size: 14px;
   color: #333;
-  background-color: #f9f9f9;
+  background-color: #e2d8c1;
   transition: border-color 0.3s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #4a8a7a;
+  border-color: #e2d8c1;
   outline: none;
 }
 
@@ -234,7 +234,7 @@ nav {
 }
 
 .contact-form button {
-  background-color: #1a3c34;
+  background-color: #FFB200;
   color: #fff;
   border: none;
   padding: 12px 30px;
@@ -247,7 +247,7 @@ nav {
 }
 
 .contact-form button:hover {
-  background-color: #4a8a7a;
+  background-color: #948460;
 }
 
 /* Contact Info Section */
@@ -261,7 +261,7 @@ nav {
 .contact-info h2 {
   font-size: 32px;
   font-weight: 600;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 40px;
 }
 
@@ -280,17 +280,17 @@ nav {
 
 .info-item i {
   font-size: 24px;
-  color: #1a3c34;
+  color: #FFB200;
 }
 
 .info-item p {
   font-size: 14px;
-  color: #666;
+  color: #948460;
 }
 
 /* Footer */
 footer {
-  background-color: #1a3c34;
+  background-color: #FFB200;
   color: #fff;
   padding: 40px 20px;
 }
@@ -326,7 +326,7 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #4a8a7a;
+  color: #948460;
 }
 
 .footer-links {
@@ -361,7 +361,7 @@ footer {
 }
 
 .footer-section ul li a:hover {
-  color: #4a8a7a;
+  color: #948460;
 }
 
 .footer-subscribe {
@@ -392,7 +392,7 @@ footer {
   background-color: #e8f4f0;
   border: none;
   padding: 12px 20px;
-  color: #1a3c34;
+  color: #948460;
   font-weight: 500;
   cursor: pointer;
   border-radius: 5px;
@@ -400,7 +400,7 @@ footer {
 }
 
 .email-subscribe button:hover {
-  background-color: #4a8a7a;
+  background-color: #cab889;
   color: #fff;
 }
 
@@ -408,7 +408,7 @@ footer {
   text-align: center;
   font-size: 14px;
   padding-top: 20px;
-  border-top: 1px solid #e8f4f0;
+  border-top: 1px solid #948460;
 }
 
 .footer-bottom a {
@@ -419,7 +419,7 @@ footer {
 }
 
 .footer-bottom a:hover {
-  color: #4a8a7a;
+  color: #948460;
 }
 
 /* Mobile Responsiveness */
@@ -466,7 +466,7 @@ footer {
 
   .nav-links li a {
     font-size: 16px;
-    color: #1a3c34;
+    color: #FFB200;
   }
 
   .nav-icons {

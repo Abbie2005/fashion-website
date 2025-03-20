@@ -8,13 +8,13 @@
 
 body {
   background-color: #f9f9f9;
-  color: #333;
+  color: #FFB200;
   line-height: 1.6;
 }
 
 /* Marquee */
 .marquee {
-  background-color: #1a3c34;
+  background-color: #FFB200;
   color: #fff;
   padding: 10px 0;
   overflow: hidden;
@@ -59,14 +59,14 @@ nav {
 .logo {
   font-size: 24px;
   font-weight: 700;
-  color: #1a3c34;
+  color: #FFB200;
   text-decoration: none;
 }
 
 .hamburger {
   display: none;
   font-size: 24px;
-  color: #1a3c34;
+  color: #FFB200;
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
-  color: #1a3c34;
+  color: #FFB200;
   font-size: 16px;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -87,14 +87,14 @@ nav {
 
 .nav-links li a:hover,
 .nav-links li a.active {
-  color: #4a8a7a;
+  color: #9d8c64;
 }
 
 .nav-icons {
   display: flex;
   gap: 20px;
   font-size: 18px;
-  color: #1a3c34;
+  color: #FFB200;
 }
 
 /* Hero Section */
@@ -115,19 +115,19 @@ nav {
 .hero-content h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
 .hero-content p {
   font-size: 18px;
-  color: #666;
+  color: #9d8c64;
   margin-bottom: 30px;
 }
 
 .explore-btn {
-  background-color: #1a3c34;
+  background-color: #FFB200;
   color: #fff;
   border: none;
   padding: 12px 30px;
@@ -140,12 +140,12 @@ nav {
 }
 
 .explore-btn:hover {
-  background-color: #4a8a7a;
+  background-color: #9d8c64;
 }
-.hero-image {
+.yellow-fashion {
   flex: 1;
   height: 500px;
-  background: url("../images/hero-image.png") no-repeat top;
+  background: url("../images/yellow-fashion.jpg") no-repeat top;
   background-size: cover;
   border-radius: 10px;
 }
@@ -167,7 +167,7 @@ nav {
 .why-shop-section h2 {
   font-size: 36px;
   font-weight: 600;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 20px;
 }
 .our-products p,
@@ -175,7 +175,7 @@ nav {
 .designer-clothes p,
 .why-shop-section p {
   font-size: 16px;
-  color: #666;
+  color: #9d8c64;
   margin-bottom: 40px;
 }
 
@@ -206,20 +206,20 @@ nav {
   object-position: top;
   border-radius: 8px;
   margin-bottom: 15px;
-  background-color: #d3e2d7;
+  background-color: #d7caac;
 }
 
 .product-card h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #333;
+  color: #9d8c64;
   margin-bottom: 10px;
 }
 
 .product-card p {
   font-size: 16px;
   font-weight: 600;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 10px;
 }
 
@@ -230,7 +230,7 @@ nav {
 
 /* Exclusive Offer Section */
 .exclusive-offer {
-  background-color: #e8f4f0;
+  background-color: #e8dcc0;
   padding: 50px;
   border-radius: 10px;
   text-align: center;
@@ -254,13 +254,13 @@ nav {
   padding: 15px;
   font-size: 24px;
   font-weight: 600;
-  color: #1a3c34;
+  color: #FFB200;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .buy-now-btn {
-  background-color: #1a3c34;
+  background-color: #FFB200;
   color: #fff;
   border: none;
   padding: 12px 30px;
@@ -272,7 +272,7 @@ nav {
 }
 
 .buy-now-btn:hover {
-  background-color: #4a8a7a;
+  background-color: #9d8c64;;
 }
 
 /* Designer Clothes Section */
@@ -303,19 +303,19 @@ nav {
   border-radius: 8px;
   margin-bottom: 15px;
   max-width: 100%;
-  background-color: #d3e2d7;
+  background-color: #e1d3b3;
 }
 
 .designer-card h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #333;
+  color: #9d8c64;
   margin-bottom: 10px;
 }
 
 .designer-card p {
   font-size: 14px;
-  color: #666;
+  color: #9d8c64;
 }
 
 /* Why Shop with Us Section */
@@ -342,26 +342,26 @@ nav {
 
 .feature-card i {
   font-size: 36px;
-  color: #1a3c34;
+  color: #FFB200;
   margin-bottom: 20px;
 }
 
 .feature-card h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #333;
+  color: #9d8c64;
   margin-bottom: 15px;
 }
 
 .feature-card p {
   font-size: 14px;
-  color: #666;
+  color: #9d8c64;
   line-height: 1.6;
 }
 
 /* Footer */
 footer {
-  background-color: #1a3c34;
+  background-color: #FFB200;
   color: #fff;
   padding: 40px 20px;
 }
@@ -490,7 +490,7 @@ footer {
 }
 
 .footer-bottom a:hover {
-  color: #4a8a7a;
+  color: #9d8c64;
 }
 
 /* Mobile Responsiveness */
@@ -537,7 +537,7 @@ footer {
 
   .nav-links li a {
     font-size: 16px;
-    color: #1a3c34;
+    color: #FFB200;
   }
 
   .nav-icons {
