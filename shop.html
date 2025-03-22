@@ -1,100 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Spech Fashion - Shop</title>
-        <link rel="stylesheet" href="./css/styles.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        />
-    </head>
-    <body>
-        <!-- Marquee for Upcoming Event -->
-        <div class="marquee">
-            <div class="marquee-content">
-                Upcoming Event: Spring Fashion Sale on March 20, 2025 - Get 20% Off!
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop - Spech Fashion</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Marquee -->
+    <div class="marquee">
+      <div class="marquee-content">
+        Upcoming Event: Spring Fashion Sale on March 20, 2025 - Get 20% Off!
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+        <a href="index.html" class="logo">Spech Fashion</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="trustees.html">Trustees</a></li>
+        </ul>
+        <div class="nav-icons">
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <a href="profile.html"><i class="fas fa-user"></i></a>
         </div>
+      </nav>
+    </header>
 
-        <!-- Header -->
-        <header>
-            <nav>
-                <div class="hamburger">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <a href="index.html" class="logo">Spech Fashion</a>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html" class="active">Shop</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="trustees.html">Trustees</a></li>
-                </ul>
-                <div class="nav-icons">
-                    <i class="fas fa-shopping-cart"></i>
-                    <i class="fas fa-user"></i>
-                </div>
-            </nav>
-        </header>
+    <!-- Shop Section -->
+    <section class="shop-section">
+      <h2>Shop Our Collection</h2>
+      <p>Browse our premium clothing and accessories.</p>
+      <div class="shop-filters">
+        <div class="filters-left">
+          <div class="filter-group">
+            <label for="category-filter">Category:</label>
+            <select id="category-filter">
+              <option value="all">All</option>
+              <option value="shirts">Shirts</option>
+              <option value="jackets">Jackets</option>
+              <option value="dresses">Dresses</option>
+              <option value="pants">Pants</option>
+              <option value="accessories">Accessories</option>
+              <option value="shoes">Shoes</option>
+              <option value="bags">Bags</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="sort-filter">Sort By:</label>
+            <select id="sort-filter">
+              <option value="default">Default</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="newest">Newest</option>
+              <option value="popular">Most Popular</option>
+            </select>
+          </div>
+        </div>
+        <div class="filters-right">
+          <div class="search-bar">
+            <input type="text" placeholder="Search products..." />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="shop-grid">
+        <div class="shop-card" data-category="shirts">
+          <img src="https://placehold.co/600x400" alt="Spread Collar Shirt" />
+          <h3>Spread Collar Shirt</h3>
+          <p class="price">$42.99</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="jackets">
+          <img src="https://placehold.co/600x400" alt="Female Suit Jacket" />
+          <h3>Female Suit Jacket</h3>
+          <p class="price">$79.50</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="jackets">
+          <img src="https://placehold.co/600x400" alt="Leather Coat" />
+          <h3>Leather Coat</h3>
+          <p class="price">$34.38</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="jackets">
+          <img src="https://placehold.co/600x400" alt="Padded Jacket" />
+          <h3>Padded Jacket</h3>
+          <p class="price">$63.21</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="jackets">
+          <img src="https://placehold.co/600x400" alt="Jeans Jacket" />
+          <h3>Jeans Jacket</h3>
+          <p class="price">$26.50</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="dresses">
+          <img src="https://placehold.co/600x400" alt="Stretchy Gown" />
+          <h3>Stretchy Gown</h3>
+          <p class="price">$19.55</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="dresses">
+          <img src="https://placehold.co/600x400" alt="Summer Dress" />
+          <h3>Summer Dress</h3>
+          <p class="price">$45.99</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="shirts">
+          <img src="https://placehold.co/600x400" alt="Oxford Button-Down" />
+          <h3>Oxford Button-Down</h3>
+          <p class="price">$38.50</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="shop-card" data-category="pants">
+          <img src="https://placehold.co/600x400" alt="Slim Fit Jeans" />
+          <h3>Slim Fit Jeans</h3>
+          <p class="price">$59.99</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+      </div>
+    </section>
 
-        <!-- Shop Placeholder Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Shop Coming Soon</h1>
-                <p>We're currently working on our shop page. Please check back soon for our full collection of products.</p>
-                <div class="placeholder-image">
-                    <i class="fas fa-shopping-bag"></i>
-                </div>
-          </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Spech Fashion</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h3>Shop</h3>
+            <ul>
+              <li><a href="shop.html">Products</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="shop.html">New Arrivals</a></li>
+              <li><a href="shop.html">Best Sellers</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="trustees.html">Trustees</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h3>Stay Up to Date</h3>
+          <div class="email-subscribe">
+            <input type="email" placeholder="Enter your email" />
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <a href="#">Terms</a> | <a href="#">Privacy</a> |
+          <a href="#">Cookies</a>
+        </p>
+      </div>
+    </footer>
 
-        <!-- Footer -->
-        <footer>
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>Spech Fashion</h3>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h3>Shop</h3>
-                        <ul>
-                            <li><a href="#shop">Products</a></li>
-                            <li><a href="#events">Events</a></li>
-                            <li><a href="#shop">New Arrivals</a></li>
-                            <li><a href="#shop">Best Sellers</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-section">
-                        <h3>Company</h3>
-                        <ul>
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="#trustees">Trustees</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li><a href="#support">Support</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-subscribe">
-                    <h3>Stay Up to Date</h3>
-                    <div class="email-subscribe">
-                        <input type="email" placeholder="Enter your email" />
-                        <button>Submit</button>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>
-                    <a href="#">Terms</a> | <a href="#">Privacy</a> |
-                    <a href="#">Cookies</a>
-                </p>
-            </div>
-        </footer>
-
-        <script src="./js/main.js"></script>
-    </body>
-</html></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
